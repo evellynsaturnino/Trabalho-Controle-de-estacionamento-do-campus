@@ -1,0 +1,17 @@
+Requisitos do Sistema
+
+Requisitos Funcionais
+RF01-O sistema deverá registrar a entrada de veículos do estacionamento.
+RF02-O sistema deverá registrar a saída de veículos do estacionamento.
+RF03-O sistema deverá cadastrar os veículos vinculados aos usuários.
+RF04-O sistema deverá ter um registro para saber quais vagas estão disponíveis.
+RF05-O sistema deverá permitir cadastro de servidores, alunos e visitantes.
+RF06-O sistema deverá identificar o veículo pela placa ou QR Code.
+RF07-O sistema deverá ter um histórico de entrada e saída dos veículos.
+RF08-O sistema deverá enviar os registros realizados na guarita para o servidor central.
+
+Requisitos Não Funcionais
+RNF01-O sistema da guarita deverá continuar funcionando mesmo sem internet cair.
+RNF02-O sistema deverá permitir o acesso somente de pessoas autorizados.
+RNF03-O sistema deverá armazenar os registros em um banco de dados local para evitar perda de informações caso a internet caia.
+RNF04-O sistema deve sincronizar automaticamente os registros pendentes quando a internet voltar.
