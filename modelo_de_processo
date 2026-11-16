@@ -1,0 +1,15 @@
+Modelo de Processo
+
+Modelo de processo
+Cascata, pois foi escolhido por ser um modelo simples e organizado, no qual as etapas serão realizadas em sequência. O modelo cascata para esse tema permiti definir os requisitos, planejar como será o funcionamento do sistema e elaborar os diagramas antes de implementar. Assim sendo organizado e podendo acompanhar cada etapa do projeto.
+
+Fases do Modelo Cascata
+
+    • Levantamento de requisitos: Identifica as funcionalidades e necessidades do sistema, como cadastrar os veículos, registros de entrada e saída, controle de vagas e funcionamento sem internet.
+    • Análise: Os requisitos são analisados para verificar se terá possíveis problemas.
+    • Projeto de sistema: Elabora-se os diagramas, o banco de dados e a arquitetura.
+    • Implementação: Coloca-se em prática o banco de dados e a arquitetura, dando funcionalidades ao sistema.
+    • Testes: Realiza-se testes para verificar se o sistema funciona corretamente e corresponde com os requisitos.
+    • Implantação: O sistema é instalado e configurado no ambiente que será utilizado.
+    • Manutenção: Realiza-se correção de erros, atualizações e melhorias.
+      
