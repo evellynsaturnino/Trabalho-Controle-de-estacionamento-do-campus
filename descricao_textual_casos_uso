@@ -1,0 +1,108 @@
+DESCRIÇÃO TEXTUAL DOS CASOS DE USO
+
+UC01 – Registrar entrada de veículos 
+
+Nome: Registrar entrada de veículos.
+Atores: Funcionário da guarita.
+Pré-condições: 
+    • O funcionário deve estar autenticado no sistema.
+    • O veículo deve estar cadastrado no sistema.
+Fluxo principal:
+    1. O funcionário acessa o sistema.
+    2. O funcionário seleciona a opção de registrar entrada.
+    3. O sistema solicita a identificação do veículo.
+    4. O funcionário informa a placa ou realiza a leitura do QR Code.
+    5. O sistema identifica o veículo.
+    6. O sistema verifica a disponibilidade de vagas.
+    7. O sistema registra a data e horário de entrada.
+    8. O sistema atualiza o status da vaga para ocupada.
+    9. O sistema confirma o registro de entrada.
+Fluxos alternativos/exceção:
+    • Caso não esteja cadastro o veículo, o sistema deverá informar que não foi encontrado.
+    • Caso não há mais vagas disponíveis, o sistema deverá informar o funcionário.
+    • Caso a conexão com a internet falhe, o sistema deverá armazenar o registro localmente para sincronizar quando a conexão voltar.
+Pós-condições: 
+    • A entrada do veículo ficará registrada no sistema.
+    • O status da vaga é atualizado para ocupada.
+    • Caso o registro tenha sido feito sem internet, ele ficará armazenado localmente até a sincronização.
+RF relacionados: RF01, RF04, RF06 e RF08.
+
+UC02 – Registrar saída de veículos
+
+Nome: Registrar saída de veículos.
+Atores: Funcionário da guarita.
+Pré-condições: 
+    • O funcionário deve estar autenticado no sistema.
+    • O veículo deve possuir o registro de entrada ativo.
+Fluxo principal:
+    1. O funcionário acessa o sistema.
+    2. O funcionário seleciona a opção de registrar saída.
+    3. O sistema solicita a identificação do veículo.
+    4. O funcionário informa a placa ou realiza a leitura do QR Code.
+    5. O sistema identifica o veículo.
+    6. O sistema localiza o registro da entrada do veículo.
+    7. O sistema registra a data e horário de saída.
+    8. O sistema atualiza o status da vaga para disponível.
+    9. O sistema confirma o registro de saída.
+Fluxos alternativos/exceção:
+    • Caso não esteja cadastro o veículo, o sistema deverá informar que não foi encontrado.
+    • Caso não exista o registro de entrada ativo, sistema deverá informar que não é possível registrar a saída.
+    • Caso a conexão com a internet falhe, o sistema deverá armazenar o registro localmente para sincronizar quando a conexão voltar.
+Pós-condições: 
+    • A saída do veículo ficará registrada no sistema.
+    • O status da vaga é atualizado para disponível.
+    • O histórico de acesso será atualizado.
+RF relacionados: RF02, RF04, RF06 e RF07.
+
+UC03 – Cadastrar veículos 
+
+Nome: Cadastrar veículos.
+Atores: Administrador.
+Pré-condições: 
+    • O administrador deve estar autenticado no sistema.
+    • O usuário do veículo será vinculado deve estar cadastrado.
+Fluxo principal:
+    1. O administrador acessa o sistema.
+    2. O administrador seleciona a opção de cadastrar veículos.
+    3. O sistema abre o formulário de cadastro.
+    4. O administrador informa a placa, o modelo e a cor do veículo.
+    5. O administrador informa o usuário responsável do veículo.
+    6. O sistema verifica se os dados estão preenchidos corretamente.
+    7. O sistema realiza o cadastro do veículo.
+    8. O sistema mostra uma mensagem de cadastro confirmado.
+Fluxos alternativos/exceção:
+    • Caso a placa já esteja cadastrada, o sistema deverá informar que o veículo já está cadastrado.
+    • Caso algum campo não seja preenchido no cadastro, o sistema deverá mostrar uma mensagem de campos não preenchidos.
+    • Caso o usuário informado não esteja cadastrado, o sistema deverá informar que não foi encontrado.
+Pós-condições: 
+    • O veículo fica cadastrado no sistema.
+    • O veículo fica vinculado ao usuário responsável.
+RF relacionados: RF03 e RF06.
+
+UC04 – Sincronizar registros 
+
+Nome: Sincronizar registros.
+Atores: Funcionário da guarita.
+Pré-condições: 
+    • O funcionário deve estar autenticado no sistema.
+    • Devem existir registros pendentes de sincronização.
+    • A conexão coma internet deve estar disponível.
+Fluxo principal:
+    1. O funcionário acessa o sistema.
+    2. O sistema verifica se há registros pendentes.
+    3. O sistema identifica os registros que ainda não foram enviados ao servidor central.
+    4. O sistema conecta com o servidor central.
+    5. O sistema envia os registros pendentes.
+    6. O servidor central recebe e armazena os registros.
+    7. O sistema atualiza o status dos registros sincronizados.
+    8. O sistema informa que a sincronização foi realizada.
+Fluxos alternativos/exceção:
+    • Caso não exista registros pendentes, o sistema deverá informar que não há dados para sincronizar.
+    • Caso não há conexão com a internet, o sistema deverá manter os registros armazenados.
+    • Caso ocorra uma falha durante o envio, o sistema deverá manter os registro pendentes para uma nova tentativa.
+Pós-condições: 
+    • Os registros enviados ficam armazenados no servidor central.
+    • Os registros sincronizados têm seu status atualizado.
+    • Os registros que não foram enviados permanecem armazenados localmente.
+RF relacionados: RF08.
+
