@@ -1,0 +1,121 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Página-1" id="AxhosABnWRqEzfcchNgB">
+    <mxGraphModel dx="1147" dy="620" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="zby-TrDLwxLH9dTkObhK-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Nó 1 - Computador da guarita" vertex="1">
+          <mxGeometry height="30" width="170" x="310" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="zby-TrDLwxLH9dTkObhK-10" edge="1" parent="1" source="zby-TrDLwxLH9dTkObhK-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="zby-TrDLwxLH9dTkObhK-7">
+          <mxGeometry relative="1" x="0.0714" as="geometry">
+            <Array as="points">
+              <mxPoint x="515" y="80" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zby-TrDLwxLH9dTkObhK-2" parent="1" style="whiteSpace=wrap;html=1;" value="&amp;lt;&amp;lt;device&amp;gt;&amp;gt;&lt;div&gt;Computador Guarita&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="120" x="335" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="zby-TrDLwxLH9dTkObhK-31" edge="1" parent="1" source="zby-TrDLwxLH9dTkObhK-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;labelPadding=0 4;" value="">
+          <mxGeometry relative="1" x="-0.6118" as="geometry">
+            <mxPoint x="20" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zby-TrDLwxLH9dTkObhK-5" parent="1" style="whiteSpace=wrap;html=1;" value="modulo_sincronizacao" vertex="1">
+          <mxGeometry height="40" width="120" x="210" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="zby-TrDLwxLH9dTkObhK-6" parent="1" style="whiteSpace=wrap;html=1;" value="banco_local" vertex="1">
+          <mxGeometry height="40" width="90" x="350" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="zby-TrDLwxLH9dTkObhK-7" parent="1" style="whiteSpace=wrap;html=1;" value="sistema_guarita" vertex="1">
+          <mxGeometry height="40" width="85" x="470" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="zby-TrDLwxLH9dTkObhK-9" edge="1" parent="1" source="zby-TrDLwxLH9dTkObhK-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.433;entryY=0.075;entryDx=0;entryDy=0;entryPerimeter=0;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="zby-TrDLwxLH9dTkObhK-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zby-TrDLwxLH9dTkObhK-11" edge="1" parent="1" source="zby-TrDLwxLH9dTkObhK-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.4;entryY=-0.075;entryDx=0;entryDy=0;entryPerimeter=0;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="zby-TrDLwxLH9dTkObhK-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zby-TrDLwxLH9dTkObhK-12" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Nó 2 - Servidor central" vertex="1">
+          <mxGeometry height="30" width="130" x="80" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="zby-TrDLwxLH9dTkObhK-15" edge="1" parent="1" source="zby-TrDLwxLH9dTkObhK-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="zby-TrDLwxLH9dTkObhK-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zby-TrDLwxLH9dTkObhK-17" edge="1" parent="1" source="zby-TrDLwxLH9dTkObhK-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;labelPadding=0 4;">
+          <mxGeometry relative="1" x="-0.8" as="geometry">
+            <mxPoint x="50" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zby-TrDLwxLH9dTkObhK-25" edge="1" parent="1" source="zby-TrDLwxLH9dTkObhK-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="zby-TrDLwxLH9dTkObhK-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zby-TrDLwxLH9dTkObhK-13" parent="1" style="whiteSpace=wrap;html=1;" value="&amp;lt;&amp;lt;device&amp;gt;&amp;gt;&lt;div&gt;Servidor Central&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="120" x="80" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="zby-TrDLwxLH9dTkObhK-14" parent="1" style="whiteSpace=wrap;html=1;" value="servidor_aplicacao" vertex="1">
+          <mxGeometry height="40" width="120" x="110" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="zby-TrDLwxLH9dTkObhK-16" parent="1" style="whiteSpace=wrap;html=1;" value="banco_central" vertex="1">
+          <mxGeometry height="30" width="100" x="10" y="510" as="geometry" />
+        </mxCell>
+        <mxCell id="zby-TrDLwxLH9dTkObhK-20" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="HTTPS/TCP-IP&lt;div&gt;sincronização&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="90" x="60" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="zby-TrDLwxLH9dTkObhK-21" edge="1" parent="1" source="zby-TrDLwxLH9dTkObhK-16" style="endArrow=classic;startArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;labelPadding=0 4;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" target="zby-TrDLwxLH9dTkObhK-14" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="390" y="240" as="sourcePoint" />
+            <mxPoint x="440" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zby-TrDLwxLH9dTkObhK-23" edge="1" parent="1" source="zby-TrDLwxLH9dTkObhK-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;innerLoopWaypoints=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;defaultLabelBackgroundColor=page;labelPadding=0 4;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="zby-TrDLwxLH9dTkObhK-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zby-TrDLwxLH9dTkObhK-24" parent="1" style="whiteSpace=wrap;html=1;" value="api-comunicacao" vertex="1">
+          <mxGeometry height="40" width="100" x="270" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="zby-TrDLwxLH9dTkObhK-28" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="SQL/TCP-IP" vertex="1">
+          <mxGeometry height="30" width="85" x="25" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="zby-TrDLwxLH9dTkObhK-34" edge="1" parent="1" source="zby-TrDLwxLH9dTkObhK-24" style="endArrow=classic;startArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;labelPadding=0 4;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="zby-TrDLwxLH9dTkObhK-7" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="390" y="420" as="sourcePoint" />
+            <mxPoint x="440" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zby-TrDLwxLH9dTkObhK-35" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="HTTP/TCP-IP" vertex="1">
+          <mxGeometry height="30" width="85" x="420" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="zby-TrDLwxLH9dTkObhK-36" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Nó 3 - Computador do Administrador" vertex="1">
+          <mxGeometry height="30" width="160" x="555" y="395" as="geometry" />
+        </mxCell>
+        <mxCell id="zby-TrDLwxLH9dTkObhK-42" edge="1" parent="1" source="zby-TrDLwxLH9dTkObhK-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;labelPadding=0 4;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="510" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zby-TrDLwxLH9dTkObhK-43" edge="1" parent="1" source="zby-TrDLwxLH9dTkObhK-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;labelPadding=0 4;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="760" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zby-TrDLwxLH9dTkObhK-37" parent="1" style="whiteSpace=wrap;html=1;" value="&amp;lt;&amp;lt;device&amp;gt;&amp;gt;&lt;div&gt;Computador Administrador&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="150" x="565" y="425" as="geometry" />
+        </mxCell>
+        <mxCell id="zby-TrDLwxLH9dTkObhK-38" parent="1" style="whiteSpace=wrap;html=1;" value="Navegador_web" vertex="1">
+          <mxGeometry height="40" width="120" x="460" y="530" as="geometry" />
+        </mxCell>
+        <mxCell id="zby-TrDLwxLH9dTkObhK-40" edge="1" parent="1" source="zby-TrDLwxLH9dTkObhK-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="zby-TrDLwxLH9dTkObhK-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zby-TrDLwxLH9dTkObhK-39" parent="1" style="whiteSpace=wrap;html=1;" value="Interface_administrativa&amp;nbsp;" vertex="1">
+          <mxGeometry height="40" width="140" x="640" y="570" as="geometry" />
+        </mxCell>
+        <mxCell id="zby-TrDLwxLH9dTkObhK-44" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="HTTP/TCP-IP" vertex="1">
+          <mxGeometry height="30" width="90" x="324" y="560" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
