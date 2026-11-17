@@ -1,0 +1,12 @@
+DECISÕES DE ARQUITETURA 
+
+Sistema de Controle de Estacionamento do Campus
+
+ADR 01 – Escolha do Banco de Dados MySQL
+
+O sistema de controle de estacionamento precisa armazenar informações sobre os usuários, 
+veículos, vagas, registro de entrada e saída e dados de sincronização. É necessário um banco de dados que possa organizar essas informações 
+e manter integridade dos dados. Foi escolhido o MySQL como sistema de banco de dados, pois ele tem uma solução relacional que nos ajuda 
+a organizar os dados em tabelas relacionadas, realizar consultas e manter a integridades dos dados por meio de chaves primárias e estrangeiras.
+
+Relação com os requisitos não funcionais: RNF02 e RNF03, pois contribui para a organização e proteção das informações e para o armazenamento dos registros.
