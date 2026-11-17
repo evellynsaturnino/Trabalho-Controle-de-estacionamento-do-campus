@@ -1,0 +1,11 @@
+DECISÕES DE ARQUITETURA 
+
+Sistema de Controle de Estacionamento do Campus
+
+ADR 02 – Funcionamento Offline da Guarita
+O sistema será utilizado na guarita do campus, onde pode ter perda de conexão com a internet.
+Mas nessas situações, os funcionários precisam continuar registrando entradas e saída dos veículos, 
+sem interromper o funcionamento do estacionamento. Então o sistema terá um banco de dados local na guarita, 
+permitindo armazenar temporariamente os registros de entrada e saída quando não houver internet. 
+Quando voltar a conexão, os registros pendentes serão enviados ao servidor central.
+Relação com os requisitos não funcionais: RNF01, RNF03 e RNF04, pois garante a continuidade do funcionamento, o armazenamento local e a sincronização automática dos registros.
