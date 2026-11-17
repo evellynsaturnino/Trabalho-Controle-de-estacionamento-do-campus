@@ -1,0 +1,26 @@
+
+services:
+  banco:
+    image: mysql:8.0
+    container_name: estacionamento_banco
+    restart: always
+
+    environment:
+      MYSQL_ROOT_PASSWORD: root123
+      MYSQL_DATABASE: estacionamento
+
+    ports:
+      - "3306:3306"
+
+    volumes:
+      - dados_mysql:/var/lib/mysql
+      - ./banco/init.sql:/docker-entrypoint-initdb.d/init.sql
+
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "localhost", "-proot123"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+volumes:
+  dados_mysql:
