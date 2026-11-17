@@ -19,7 +19,7 @@ Configuração do docker -> docker-compose.yml
 INSTRUÇÕES PARA EXECUTAR O AMBIENTE:
 Para executar o ambiente, é necessário te ro Docker Desktop instalado e em funcionamento.
 Executando...
-1. Clone o repositório: git clone 
+1. Clone o repositório: git clone https://github.com/evellynsaturnino/Trabalho-Controle-de-estacionamento-do-campus
 2. Entre na pasta do projeto: cd Trabalho-Controle-de-estacionamento-do-campus
 3. Inicie o ambiente Docker: docker compose up -d
 4. Para verificar se o banco de dados está em execução: docker compose ps
