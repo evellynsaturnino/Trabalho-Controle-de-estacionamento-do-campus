@@ -1,0 +1,10 @@
+DECISÕES DE ARQUITETURA 
+
+Sistema de Controle de Estacionamento do Campus
+
+ADR 03 – Comunicação com o Servidor Central por API HTTPS
+O sistema precisa enviar os registros realizados na guarita para o servidor central do campus, 
+tendo uma comunicação entre ambos. Essa comunicação precisa ocorrer de maneira segura e organizada.
+Para realizar comunicação utilizaremos API entre guarita e servidor, utilizando protocolo HTTP para transmitir dados. 
+A sincronização acontecerá automaticamente quando a conexão com a internet estiver de volta. 
+Relação com os requisitos não funcionais: RNF02 e RNF04, pois contribui para a segurança na transmissão dos dados e para a sincronização dos registros pendentes.
